@@ -2,82 +2,62 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: 吳健雄
-  given: Shiung Wu
-  family: Chien
-  pronunciation: Chien Shiung Wu
-  pronouns: she/her
+  display: Xinyue Zheng
+  given: Xinyue
+  family: Zheng
+  pronunciation: Xinyue Zheng
+  pronouns: ""
 status:
-  icon: "☕️"
-role: Director of Cloud Infrastructure
+  icon: "🎓"
+  role: PhD Student
 bio: >
-  I am currently Director of Cloud Infrastructure at GenCoin where I am leading
-  teams on edge computing, deep sea data center architecture, and hivemind optimization.
+  I am currently a first-year PhD student at Peking University's School of Artificial Intelligence, 
+  supervised by Prof. Yitao Liang. My research focuses on generative evaluation and embodied AI.
 affiliations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: Peking University, School of Artificial Intelligence
+    url: https://ai.pku.edu.cn/
 links:
   - icon: at-symbol
-    url: mailto:your-email@example.com
+    url: mailto:zhengxinyue1204@gmail.com
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/BuildLore
-  - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
 education:
-  - degree: PhD Artificial Intelligence
-    institution: Stanford University
-    start: 2016-01-01
-    end: 2020-12-31
+  - degree: PhD in Artificial Intelligence
+    institution: Peking University, School of Artificial Intelligence
+    start: 2026-09-01
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - degree: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    start: 2016-01-01
-    end: 2020-12-31
+      Currently pursuing a PhD in Artificial Intelligence, supervised by Prof. Yitao Liang. 
+      Research focus: Generative evaluation and embodied AI.
+  - degree: Master's Degree
+    institution: University of Chinese Academy of Sciences, School of Electronic, Electrical and Communication Engineering
+    start: 2019-09-01
+    end: 2026-06-30
     summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - degree: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    start: 2016-01-01
-    end: 2020-12-31
+      Master's student at UCAS. Served as Student Union President.
+  - degree: Bachelor's Degree
+    institution: Southeast University, Special Class for the Gifted Young
+    start: 2012-09-01
+    end: 2016-06-30
     summary: |
-      GPA: 3.4/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Bachelor's degree from Southeast University's Special Class for the Gifted Young.
+  - degree: Exchange Program
+    institution: University of Tennessee
+    start: 2014-08-01
+    end: 2014-12-31
+    summary: |
+      Exchange student during the first semester of junior year.
 experience:
-  - role: Director of Cloud Infrastructure
-    org: GenCoin
-    start: 2021-01-01
+  - role: Deep Learning Researcher
+    org: Baidu Autonomous Driving Technology Department
+    start: 2021-09-01
+    end: 2025-08-31
     summary: |
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - role: Backend Software Engineer
-    org: X
-    start: 2016-01-01
-    end: 2020-12-31
+      Deep learning researcher in autonomous driving technology.
+  - role: Deep Learning Researcher
+    org: Lenovo AI Lab
+    start: 2019-01-01
+    end: 2021-08-31
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Deep learning researcher at Lenovo AI Lab.
 skills:
   - name: Technical Skills
     items:
@@ -104,29 +84,27 @@ languages:
     level: 4
   - name: Portuguese
     level: 1
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: brands/coursera
+publications:
+  - title: MCU
+    url: https://craftjarvis.github.io/MCU/
+    date: '2023-10-01'
+    awarder: ""
+    icon: brands/github
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: brands/edx
+      **MCU** - A framework for generating high-quality competitive coding problems.
+      
+      🔗 [Project Homepage](https://craftjarvis.github.io/MCU/) | 
+      📄 [Paper](https://arxiv.org/abs/2310.08367) | 
+      💻 [Code](https://github.com/CraftJarvis/MCU)
+  - title: UniCode
+    url: https://github.com/grandsmile/UniCode
+    date: '2024-10-01'
+    awarder: ""
+    icon: brands/github
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: brands/datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      **UniCode: A Framework for Generating High-Quality Competitive Coding Problems**
+      
+      🔗 [Project Homepage](https://github.com/grandsmile/UniCode) | 
+      📄 [Paper](https://arxiv.org/pdf/2510.17868) | 
+      💻 [Code](https://github.com/grandsmile/UniCode) | 
+      📊 [Dataset](https://huggingface.co/datasets/grandsmile/Generative_Coding_Dataset)
